@@ -9,48 +9,38 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="shortcut icon" href="./images/logo-310x310.png">
 </head>
-<body>
+<body class="bg-gray-300">
     <div class="grid-rows-2 bg-neutral-800 h-full">
-        <nav class="bg-neutral-500 flex align-center">
-            <div class="w-fit h-fit py-1 px-2">
-                <a href="index.html"><img class="w-10 " src="./images/logo-310x310.png" alt=""></a>
+        <nav class="bg-zinc-900 flex align-center h-12">
+            <!-- Logo container -->
+            <div class="flex items-center relative left-3">
+                <a class="flex items-center gap-2" href="index.html">
+                    <img class="w-10 " src="./images/logo-310x310.png" alt="">
+                    <h1 class="text-neutral-50 font-semibold">Javier López</h1>
+                </a>
             </div>
-            <div class="flex sm-hidden align-center h-auto gap-10 py-2 px-4 absolute right-0">
-                <button class="">
-                    <a href="index.html">Inicio</a>
-                </button>
-                <button class="">
-                    <a href="pages/about-me.html">Sobre mi</a>
-                </button>
-                <button class="">
-                    <a href="pages/contact.html">Contactame</a>
-                </button>
-                <div class="sm-flex hidden">
-                    <button class=""><img class="w-10" src="./images/icons8-menu-48.png" alt=""></button>
-                </div>
+            <!-- Social media container -->
+            <div class="sm:flex hidden items-center gap-3 absolute right-3">
+                <a class="pt-0.5" href="#"><img class="w-8" src="./images/discord.png" alt=""></a>
+                <a class="pt-0.5" href="#"><img class="w-11" src="./images/instagram.png" alt=""></a>
+            </div>
+            <div class="sm:hidden flex align-center h-auto gap-10 px-4 py-1 absolute right-0">
+                <button class=""><img class="w-10" src="./images/icons8-menu-48.png" alt=""></button>
+            </div>
             </div>
         </nav>
-        <main>
-            <div>
-                <div>Imagen</div>
-                <div>Texto</div>
+        <main class="">
+        <div id="title-container">
+            <h1 class="flex justify-center pt-10 text-2xl text-green-600 font-bold ">Mi ruta de aprendizaje hasta la fecha</h1>
+            <p class="sm:pt-5 sm:px-28 text-2 flex justify-center">Aprendí a estructurar de manera correcta una página web mediante el uso de diferentes lenguajes (no confundir con lenguajes de programación) los cuales me brindaron el conocimiento suficiente para crear este sitio web, que es, de hecho, mi primer sitio web</p>
+            <br>
+            <p class="sm:pt-5 sm:px-6 flex justify-center">Después de esta breve introducción, les presentaré cada lenguaje y tecnología aprendida</p>
+        </div>
+            <div class="hidden items-center sm:flex-col lg:flex-row">
+                <img class="sm:pt-10 sm:px-6 lg:w-1/2 lg: rounded-xl " src="./images/Desktop-12-29-2022-4-00-15-PM.gif" alt="">
+                <div class="sm:pt-5 sm:px-6 lg:w-1/2 lg: rounded-xl "></div>
             </div>
-            <div>
-                <div>Texto</div>
-                <div>Imagen</div>
-            </div>
-            <div>
-                <div>Imagen</div>
-                <div>Texto</div>
-            </div>
-            <div>
-                <div>Texto</div>
-                <div>Imagen</div>
-            </div>
-            <div>
-                <div>Imagen</div>
-                <div>Texto</div>
-            </div>
+            
         </main>
     </div>
 </body>
