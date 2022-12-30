@@ -1,2 +1,2 @@
 # habiesu-blog.github.io
- my personal blog
+ my first blog
